@@ -1,0 +1,7 @@
+.Card {
+    background: #fc766aff ;
+    border-radius: 500px;
+}
+.Card__img {
+    text-align: center;
+}
