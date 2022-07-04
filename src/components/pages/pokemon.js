@@ -29,7 +29,7 @@ function Pokemon() {
             // console.log(result.data)
             setPokeData(state=>{
                 state=[...state,result.data]
-                state.sort((a,b)=>a.id>b.id?1:-1)
+                state.sort((a,b)=>a.id>b.id?1:0)
                 return state;
             })
         })
