@@ -1,12 +1,13 @@
 import React from "react";
 import {Link} from 'react-router-dom'
+import './style.css';
 
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar  navbar-align navbar-dark bg-dark">
         <div className="container-fluid">
-        <Link to='/'>
+        <Link to='/inicio'>
             <img src= './pokemon.png' width='100' alt='100'/>
         </Link>
           <button
@@ -23,18 +24,19 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav mx-auto">
               <li className="nav-item">
-                <Link className="nav-link" to='/'>
-                  Inicio
+              <li className="nav-item">
+              <Link className="nav-link" to='/home'>
+                  Home
                 </Link>
-              </li>
+            
               <li className="nav-item">
               <Link className="nav-link" to='/pokemon'>
                   Pokemon
                 </Link>
               </li>
-              <li className="nav-item">
-              <Link className="nav-link" to='/items'>
-                  Items
+                </li>
+                <Link className="nav-link" to='/'>
+                  About
                 </Link>
               </li>
         

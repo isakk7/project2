@@ -4,21 +4,21 @@ import React from 'react'
 
 const About = () =>{
     return (
-    <div className="container" height="10" width="100"  >
+    <div className="container-info" height="100" width="100"  >
   <div className="card" alt="swimmer" align="center">
-  <img src="./bart.jpeg" className="card-img" alt="fix" height="400" width="50"/>
+  <img src="./bart.jpeg" className="card-img" alt="fix" height="400" width="500"/>
   <div className="card-body">
-    <h5 className="card-title">Card title</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 className="card-title">Isaac Adan Lope</h5>
+    <p className="card-text">19189</p>
   </div>
   <ul className="list-group list-group-flush">
-    <li className="list-group-item">An item</li>
-    <li className="list-group-item">A second item</li>
-    <li className="list-group-item">A third item</li>
+    <li className="list-group-item">8°</li>
+    <li className="list-group-item">Grupo "B"</li>
+    <li className="list-group-item">IDGS</li>
   </ul>
   <div className="card-body">
-    <a href="instagram.com" class="card-link">Card link</a>
-    <a href="facebook.com" class="card-link">Another link</a>
+    <a href="instagram.com" class="card-link">Facebook</a>
+    <a href="facebook.com" class="card-link">Instagram</a>
   </div>
 </div>
 </div>
