@@ -7,7 +7,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar  navbar-align navbar-dark bg-dark">
         <div className="container-fluid">
-        <Link to='/inicio'>
+        <Link to='/'>
             <img src= './pokemon.png' width='100' alt='100'/>
         </Link>
           <button
