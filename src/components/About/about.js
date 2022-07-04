@@ -9,7 +9,7 @@ const About = () =>{
   <img src="./me.jpg" className="card-img" alt="fix" height="400" width="50"/>
   <div className="card-body">
     <h5 className="card-title">Isaac Adan Lopez</h5>
-    <p className="card-text">19189</p>
+    <p className="card-text">190189</p>
   </div>
   <ul className="list-group list-group-flush">
     <li className="list-group-item">8°</li>
