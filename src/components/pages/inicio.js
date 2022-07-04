@@ -5,7 +5,7 @@ const Inicio = () => {
     return (
         <div>
             <About/>
-            <h1> About</h1>
+            <h1> </h1>
 
         </div>
     )
